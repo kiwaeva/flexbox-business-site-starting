@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Mono&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+/*NAVIGATION*/
+nav{
+  margin:0;
+  padding: 25px;
+  background-color: lightblue;
+  font-family: silkscreen;
+}
+
+ul {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+li{
+  list-style-type:none;
+}
+
+a {
+  text-decoration:none;
+  color: black;
+  padding: 15px;
+}
+
+
+/*MAIN*/
+main{
+  margin: 10px;
+  }
+
+main h2, p{
+  display:flex;
+  justify-content:center;
+  margin: 20px;
+}
+
+main h1, h2 {
+  font-family: silkscreen;
+}
+/*IMAGES*/
+section{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+img{
+  background-size:cover;
+  width:auto;
+  height:200px;
+  margin: 10px;
+}
+
+footer {
+  background-color: lightblue;
+  margin-bottom:0;
+  padding: 10px;
+}
